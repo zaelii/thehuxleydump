@@ -30,7 +30,7 @@ if 14 <= idade < 21:
         print("Volte daqui há alguns anos.")
     else:
         print("Jogo invalido.")
-if 21 <= idade < 130:
+if 21 <= idade <= 130:
     if jogo == 'azar' or jogo == 'casual' or jogo == 'moba' or jogo == 'mmorpg':
         print("Pode entrar!")
     else:
