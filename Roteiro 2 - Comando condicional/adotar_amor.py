@@ -1,4 +1,4 @@
-DIFERENCA_IDADE = 16
+
 
 idade_adotante = int(input())
 if idade_adotante < 18:
