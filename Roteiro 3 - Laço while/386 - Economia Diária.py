@@ -1,4 +1,4 @@
-
+#Feito
 
 i = 0
 cumpriu = 0
@@ -16,4 +16,5 @@ while(True):
         break
     i += 1
 
-print("R$ %.2f\n%d"%(soma,cumpriu))
+print("R$ {:.2f}".format(soma))
+print(cumpriu)
