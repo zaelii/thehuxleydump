@@ -1,3 +1,5 @@
+#feito
+
 while True:
     entrada = input()
     if entrada == "FIM":
@@ -9,9 +11,7 @@ while True:
     else:
         if l1 == l2 and l2 == l3:
             print("EQUILATERO")
-        elif l1 != l2 and l2 != l3:
+        elif l1 != l2 and l2 != l3 and l3 != l1:
             print("ESCALENO")
         else:
             print("ISOSCELES")
-           
-#UNDONE 19OKS 2ERRORS
