@@ -1,12 +1,14 @@
-contB = 0
-contC = 0
+#feito
+
+contadorB = 0
+contadorC = 0
 for i in range(7):
      passeio = input().upper()
      if passeio == "BOLICHE":
-         contB += 1 
+         contadorB += 1 
      elif passeio == "CINEMA":
-         contC += 1
-if contC > contB:
+         contadorC += 1
+if contadorC > contadorB:
      print("CINEMA")
 else:
      print("BOLICHE")
