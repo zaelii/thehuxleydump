@@ -1,0 +1,21 @@
+
+altura_pulo = 1   #numero
+contador_pulos = 1
+acumulador_pulos = 1
+
+
+nome = input()
+while altura_pulo > 0:
+    if contador_pulos > 0:
+        altura_pulo = float(input()) 
+        acumulador_pulos += altura_pulo
+        contador_pulos += 1
+        if altura_pulo < 0:
+            contador_pulos -= 1
+            
+
+media = (acumulador_pulos)/(contador_pulos-1)
+print (((nome)+": " + "{:.1f}".format(media)))
+
+
+o problema é como retornar para o nome e fazer dnv
